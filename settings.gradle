@@ -1,0 +1,3 @@
+rootProject.name='Simonix Base Sample'
+include ':app'
+include ':simonix-base-code'

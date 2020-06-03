@@ -1,0 +1,42 @@
+<resources>
+
+    <style name="Appearance_App_Setting_Theme">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="Carls.Appearance.App.Dialog" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+<!--        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="textColorAlertDialogListItem">@color/colorPrimary</item>
+        <item name="android:windowTitleStyle">@style/Carls.Appearance.App.Dialog.TitleStyle</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorAccent">@color/colorAccent</item>-->
+        <item name="windowFixedWidthMajor">75%</item>
+        <item name="windowFixedWidthMinor">75%</item>
+    </style>
+
+ <!--   <style name="Carls.Appearance.App.Dialog.TitleStyle">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+    </style>-->
+
+    <style name="Carls_Appearance_App_TextStyleLight_Small">
+        <item name="android:textColor">@color/carls_light_text_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+<!--    <style name="Carls_Appearance_App_TextStyleLight_Medium">
+        <item name="android:textColor">@color/carls_light_text_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="Carls_Appearance_App_TextStyleLight_Large">
+        <item name="android:textColor">@color/carls_light_text_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>-->
+
+</resources>

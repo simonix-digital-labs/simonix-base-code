@@ -1,0 +1,26 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/carls_kisok_mode">
+
+        <SwitchPreference
+            app:iconSpaceReserved="false"
+            app:key="@string/carls_kisok_mode"
+            app:title="@string/carls_kisok_mode" />
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="@string/carls_change_passcode"
+            app:summary="@string/app_name"
+            app:title="@string/carls_change_passcode" />
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="@string/carls_remove_device_owner"
+            app:summary="@string/app_name"
+            app:title="@string/carls_remove_device_owner" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

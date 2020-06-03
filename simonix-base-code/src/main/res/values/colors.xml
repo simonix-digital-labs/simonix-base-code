@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="carls_default_pressed">#1A50B24A</color>
+    <color name="carls_default_pressed_">#3350B24A</color>
+    <color name="carls_color_red">#F34C4D</color>
+    <color name="carls_color_red_bg">#FAD4DA</color>
+    <color name="carls_color_green">#50BE86</color>
+    <color name="carls_color_green_bg">#D1F1E7</color>
+    <color name="carls_color_yellow">#FDCB33</color>
+    <color name="carls_color_yellow_bg">#FFFBE0</color>
+    <color name="carls_color_blue">#257FF9</color>
+    <color name="carls_color_blue_bg">#D8E2FE</color>
+    <color name="carls_color_chocorol">#393939</color>
+    <color name="carls_color_chocorol_bg">#DCDCDC</color>
+    <color name="carls_light_text_color">@android:color/white</color>
+
+
+</resources>

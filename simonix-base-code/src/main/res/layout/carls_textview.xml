@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:paddingStart="24dip"
+    android:paddingEnd="7dip"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:layout_height="wrap_content"
+    android:ellipsize="marquee"
+    android:text="@string/app_name"
+    android:textColor="@android:color/darker_gray"
+    android:gravity="center_vertical"
+    android:singleLine="true" />
+
+
+

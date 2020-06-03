@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/layout_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pin_layout_"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/one"
+            android:tag="@string/one"
+            style="@style/Carls_Appearance_App_TextStyleLight_Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/carls_passcode_btn_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/one" />
+
+
+        <TextView
+            android:id="@+id/two"
+            style="@style/Carls_Appearance_App_TextStyleLight_Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/carls_passcode_btn_selector"
+            android:clickable="true"
+            android:tag="@string/two"
+            android:onClick="onButtonClick"
+            android:gravity="center"
+            android:text="@string/two" />
+
+        <TextView
+            android:id="@+id/three"
+            style="@style/Carls_Appearance_App_TextStyleLight_Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:tag="@string/three"
+            android:background="@drawable/carls_passcode_btn_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/three" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_1"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/four"
+            style="@style/Carls_Appearance_App_TextStyleLight_Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="@string/four"
+            android:layout_margin="10dp"
+            android:background="@drawable/carls_passcode_btn_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/four" />
+
+        <TextView
+            android:id="@+id/five"
+            style="@style/Carls_Appearance_App_TextStyleLight_Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/carls_passcode_btn_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:tag="@string/five"
+            android:text="@string/five" />
+
+        <TextView
+            android:id="@+id/six"
+            style="@style/Carls_Appearance_App_TextStyleLight_Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:tag="@string/six"
+            android:background="@drawable/carls_passcode_btn_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/six" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_2"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/seven"
+            style="@style/Carls_Appearance_App_TextStyleLight_Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:tag="@string/seven"
+            android:background="@drawable/carls_passcode_btn_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/seven" />
+
+        <TextView
+            android:id="@+id/eight"
+            style="@style/Carls_Appearance_App_TextStyleLight_Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/carls_passcode_btn_selector"
+            android:clickable="true"
+            android:tag="@string/eight"
+            android:gravity="center"
+            android:text="@string/eight" />
+
+        <TextView
+            android:id="@+id/nine"
+            style="@style/Carls_Appearance_App_TextStyleLight_Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:tag="@string/nine"
+            android:background="@drawable/carls_passcode_btn_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/nine" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_3"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/exit"
+            style="@style/Carls_Appearance_App_TextStyleLight_Small"
+            android:layout_width="wrap_content"
+            android:tag="exit"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/carls_passcode_btn_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="\u2718" />
+
+        <TextView
+            android:id="@+id/zero"
+            style="@style/Carls_Appearance_App_TextStyleLight_Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/carls_passcode_btn_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:tag="@string/zero"
+            android:text="@string/zero" />
+
+        <TextView
+            android:id="@+id/backspace"
+            style="@style/Carls_Appearance_App_TextStyleLight_Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/carls_passcode_btn_selector"
+            android:clickable="true"
+            android:tag="backspace"
+            android:gravity="center"
+            android:text="\u232B" />
+    </LinearLayout>
+
+
+    <include
+        android:id="@+id/pin_layout_"
+        layout="@layout/carls_enter_4_digit_mpin" />
+
+
+</RelativeLayout>
