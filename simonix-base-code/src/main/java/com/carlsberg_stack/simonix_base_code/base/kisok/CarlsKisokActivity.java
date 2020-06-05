@@ -18,9 +18,9 @@ public abstract class CarlsKisokActivity extends CarlsActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mDpm = (DevicePolicyManager) getSystemService(Context.DEVICE_POLICY_SERVICE);
-        if (defaultPreference.getBoolean(getString(R.string.carls_kisok_mode), true)) {
+//        if (defaultPreference.getBoolean(getString(R.string.carls_kisok_mode), false)) {
             carls_enter_kisok_mode(carl_getPackageName());
-        }
+//        }
     }
 
     private void carls_enter_kisok_mode(String package_name) {
